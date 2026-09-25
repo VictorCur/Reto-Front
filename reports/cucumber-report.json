@@ -1,0 +1,795 @@
+[
+  {
+    "description": "  Como cliente de Sauce Demo\n  I want to complete the purchase process\n  So that I can buy the selected products",
+    "elements": [
+      {
+        "description": "",
+        "id": "purchase-flow-in-sauce-demo;user-can-complete-a-successful-purchase",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User can complete a successful purchase",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 272411333
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 189073637
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the Sauce Demo login page",
+            "match": {
+              "location": "src/steps/login.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 193671143
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I log in with valid credentials",
+            "match": {
+              "location": "src/steps/login.steps.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 49027092
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the products page",
+            "match": {
+              "location": "src/steps/login.steps.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 55913075
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I add the \"Sauce Labs Backpack\" product to the cart",
+            "match": {
+              "location": "src/steps/login.steps.ts:60"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 47383566
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I open the shopping cart",
+            "match": {
+              "location": "src/steps/login.steps.ts:74"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 33804823
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Sauce Labs Backpack\" in the cart",
+            "match": {
+              "location": "src/steps/login.steps.ts:82"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 45203516
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "src/steps/login.steps.ts:92"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 100269383
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I fill the checkout form with first name \"QA\", last name \"Tester\", postal code \"12345\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:100"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 65355391
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I finish the purchase",
+            "match": {
+              "location": "src/steps/login.steps.ts:132"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 31142493
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the order confirmation message should contain \"Thank you for your order!\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:140"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 66280821
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "purchase-flow-in-sauce-demo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Purchase flow in Sauce Demo",
+    "tags": [],
+    "uri": "features/checkout.feature"
+  },
+  {
+    "description": "  Como cliente de Sauce Demo\n  I want to log in with my credentials\n  So that I can access the store and make purchases",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-in-sauce-demo;standard-user-can-log-in-successfully",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Standard user can log in successfully",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 195291429
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 155809909
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the Sauce Demo login page",
+            "match": {
+              "location": "src/steps/login.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 134496648
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I log in with valid credentials",
+            "match": {
+              "location": "src/steps/login.steps.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 9004523
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the products page",
+            "match": {
+              "location": "src/steps/login.steps.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 48324220
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-in-sauce-demo;invalid-credentials-are-rejected",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Invalid credentials are rejected",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 175848276
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 173021346
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I open the Sauce Demo login page",
+            "match": {
+              "location": "src/steps/login.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 182696068
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I log in with invalid credentials",
+            "match": {
+              "location": "src/steps/login.steps.ts:28"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11145530
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see the login error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 75158534
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-in-sauce-demo;locked-user-cannot-access-the-platform",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Locked user cannot access the platform",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 182507786
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 165960156
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I open the Sauce Demo login page",
+            "match": {
+              "location": "src/steps/login.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 191562003
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I log in with a locked user",
+            "match": {
+              "location": "src/steps/login.steps.ts:32"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 8320547
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see the login error message \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 47293472
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-in-sauce-demo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login in Sauce Demo",
+    "tags": [],
+    "uri": "features/login.feature"
+  },
+  {
+    "description": "  Como cliente de Sauce Demo\n  I want to add products to the cart\n  So that I can review them before buying",
+    "elements": [
+      {
+        "description": "",
+        "id": "product-management-in-sauce-demo;user-can-add-a-product-to-the-cart-from-the-products-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User can add a product to the cart from the products page",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 190253220
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 155178269
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the Sauce Demo login page",
+            "match": {
+              "location": "src/steps/login.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 164815856
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I log in with valid credentials",
+            "match": {
+              "location": "src/steps/login.steps.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 10542690
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the products page",
+            "match": {
+              "location": "src/steps/login.steps.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 76590906
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I add the \"Sauce Labs Backpack\" product to the cart",
+            "match": {
+              "location": "src/steps/login.steps.ts:60"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 43200189
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I open the shopping cart",
+            "match": {
+              "location": "src/steps/login.steps.ts:74"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 22430338
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Sauce Labs Backpack\" in the cart",
+            "match": {
+              "location": "src/steps/login.steps.ts:82"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 55220795
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "product-management-in-sauce-demo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Product management in Sauce Demo",
+    "tags": [],
+    "uri": "features/products.feature"
+  },
+  {
+    "description": "  Como cliente de Sauce Demo\n  I want to log in, add products to the cart and complete the purchase\n  So that I can acquire the products I need",
+    "elements": [
+      {
+        "description": "",
+        "id": "purchase-flow-in-sauce-demo;standard-user-can-log-in-and-complete-a-successful-purchase",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Standard user can log in and complete a successful purchase",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 186960842
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 154801496
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the Sauce Demo login page",
+            "match": {
+              "location": "src/steps/login.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 214243561
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I login as \"standard_user\" with password \"secret_sauce\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26806532
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the products page",
+            "match": {
+              "location": "src/steps/login.steps.ts:36"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 137130220
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I add the \"Sauce Labs Backpack\" product to the cart",
+            "match": {
+              "location": "src/steps/login.steps.ts:60"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 30591026
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I open the shopping cart",
+            "match": {
+              "location": "src/steps/login.steps.ts:74"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 27650926
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Sauce Labs Backpack\" in the cart",
+            "match": {
+              "location": "src/steps/login.steps.ts:82"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 36727412
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "src/steps/login.steps.ts:92"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 116355741
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I fill the checkout form with first name \"QA\", last name \"Tester\", postal code \"12345\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:100"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 92572256
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I finish the purchase",
+            "match": {
+              "location": "src/steps/login.steps.ts:132"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 13858444
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the order confirmation message should contain \"Thank you for your order!\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:140"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 75505557
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "purchase-flow-in-sauce-demo;invalid-credentials-are-rejected",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Invalid credentials are rejected",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 203526926
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 189197463
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I open the Sauce Demo login page",
+            "match": {
+              "location": "src/steps/login.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 178788646
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I login as \"standard_user\" with password \"wrong_password\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6906168
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should see the login error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 60219678
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "purchase-flow-in-sauce-demo;locked-out-user-cannot-access-the-platform",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Locked out user cannot access the platform",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 172445547
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 153860197
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I open the Sauce Demo login page",
+            "match": {
+              "location": "src/steps/login.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 158926513
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I login as \"locked_out_user\" with password \"secret_sauce\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7316510
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should see the login error message \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:44"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 53970493
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "purchase-flow-in-sauce-demo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Purchase flow in Sauce Demo",
+    "tags": [],
+    "uri": "features/purchase.feature"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "name": "reto-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mkdir -p reports && cucumber-js --format html:reports/cucumber-report.html --format json:reports/cucumber-report.json",
+    "test:headed": "cucumber-js --parallel 1 --tags \"@smoke\"",
+    "install:browsers": "playwright install --with-deps chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorCur/Reto-Front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VictorCur/Reto-Front/issues"
+  },
+  "homepage": "https://github.com/VictorCur/Reto-Front#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^20.17.10",
+    "dotenv": "^18.0.4",
+    "playwright": "^1.63.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
